@@ -1,7 +1,7 @@
 import './Home.css'
-import Atracao from '../../components/Atracao/Atracao';
-import Welcome from '../../components/Welcome/Welcome';
-import Navegacao from '../../components/Navegacao/Navegacao';
+import Atracao from '../../Components/Atracao/Atracao';
+import Welcome from '../../Components/welcome/Welcome';
+import Navegacao from '../../Components/Navegacao/Navegacao';
 
 function Home() {
     const componentes = [];
