@@ -1,0 +1,8 @@
+.ctn-cardanimais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: 1% auto;
+  }
+  

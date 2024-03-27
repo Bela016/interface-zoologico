@@ -3,10 +3,18 @@ import CardAnimal from '../../Components/cardAnimal/CardAnimal';
 import './Animais.css'
 
 function Animais() {
+    const componentes = [];
+    for (let i = 0; i <= 7; i++) {
+        componentes.push(<CardAnimal key={i} />)
+    }
+
     return(
         <>
             <Navegacao />
-            <CardAnimal />
+            
+            <div className="ctn-cardanimais">
+                {componentes}
+            </div>
         </>
     );
 }

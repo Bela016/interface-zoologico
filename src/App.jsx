@@ -7,11 +7,13 @@ import Login from './pages/login/Login';
 import {BrowserRouter as Roteador, Routes, Route} from 'react-router-dom';
 
 
+
 function App() {
 
   return (
     <>
-     <Roteador>
+    
+<Roteador>
      <Routes>
         <Route exact path='/' Component={Home}/>
         <Route exact path='/animais' Component={Animais}/>
@@ -20,6 +22,10 @@ function App() {
         <Route exact path='/login' Component={Login}/>
      </Routes>
      </Roteador>
+  
+      
+
+     
     </>
   );
 }
