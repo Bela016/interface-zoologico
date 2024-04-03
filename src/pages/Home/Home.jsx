@@ -3,6 +3,7 @@ import Atracao from '../../Components/Atracao/Atracao';
 import Welcome from '../../Components/welcome/Welcome';
 import Navegacao from '../../Components/Navegacao/Navegacao';
 import ImgCarrossel from '../../Components/imgCarrossel/Imgcarrossel';
+import FormAnimal from '../../Components/FormAnimal/FormAnimal';
 function Home() {
     const componentes = [];
     for (let i = 0; i <= 2; i++) {
@@ -12,11 +13,12 @@ function Home() {
     return (
         <>
             <Navegacao></Navegacao>
-            <ImgCarrossel></ImgCarrossel>
+            {/* <ImgCarrossel></ImgCarrossel>
             <Welcome />
             <div className="ctn-atracoes">
                 {componentes}
-            </div>
+            </div> */}
+            <FormAnimal />
         </>
     );
 }
