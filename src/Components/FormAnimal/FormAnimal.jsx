@@ -42,6 +42,8 @@ function FormAnimal() {
 
     return (
         <>
+        <h2>CADASTRO DE AVE</h2>
+        <div className='cadastro'>
             <form onSubmit={handleSubmit}>
                 <label>
                     Nome animal:
@@ -73,8 +75,9 @@ function FormAnimal() {
                         <option value="desconhecido">Desconhecido</option>
                     </select>
                 </label>
-                <button type="submit">Enviar</button>
+                <button style={{backgroundColor:"#000000" }} type="submit">Enviar</button>
             </form>
+            </div>
         </>
     );
 }
