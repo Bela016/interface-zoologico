@@ -1,6 +1,6 @@
 import './Fotos.css';
 import Navegacao from '../../Components/Navegacao/Navegacao'
-import ImgCarrossel from '../../Components/imgCarrossel/Imgcarrossel';
+import ImgCarrossel from '../../Components/imgCarrossel/Imgcarrossel'
 
 function Fotos() {
     return(
