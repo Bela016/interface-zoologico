@@ -18,7 +18,7 @@ Este projeto foi criado com o objetivo de:
 - **HTML5**: Estruturação da página.
 - **CSS3**: Estilização para criar uma interface atraente.
 - **JavaScript**: Lógica e interatividade da aplicação.
-- **[Framework/Biblioteca]**: 
+
 
 ---
 
